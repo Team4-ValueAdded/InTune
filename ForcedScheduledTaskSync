@@ -1,0 +1,2 @@
+# This command can be run in powershell to fore the device ot sync with Intune
+Get-ScheduledTask | ? {$_.TaskName -eq ‘PushLaunch’} | Start-ScheduledTask < This command can be ran in powershell to force the device to sync with Intune
